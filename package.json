@@ -1,0 +1,38 @@
+{
+  "name": "shaco",
+  "version": "0.0.1",
+  "description": "Instance factory. You can use it to generate random object of given ORM model when writing unit test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JerryC8080/Shaco.git"
+  },
+  "keywords": [
+    "data",
+    "factory",
+    "shaco",
+    "model",
+    "factory",
+    "data",
+    "generator"
+  ],
+  "author": "JerryC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JerryC8080/Shaco/issues"
+  },
+  "homepage": "https://github.com/JerryC8080/Shaco#readme",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "chance": "^1.0.1",
+    "faker": "^3.1.0",
+    "lodash": "^4.8.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.0"
+  }
+}
